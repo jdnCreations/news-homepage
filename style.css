@@ -197,6 +197,10 @@ li:hover {
     gap: 20px;
 }
 
+#hamburger-icon {
+    display: none;
+}
+
 .trending-title:hover {
     cursor: pointer;
     color: var(--clr-primary-red);
@@ -289,5 +293,9 @@ li:hover {
 
     .button {
         font-weight: var(--fw-700);
+    }
+
+    #hamburger-icon {
+        display: block;
     }
 }
